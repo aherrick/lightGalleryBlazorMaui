@@ -1,0 +1,7 @@
+<Project>
+	<PropertyGroup>
+		<LangVersion>preview</LangVersion>
+		<!-- <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<WarningsAsErrors /> -->
+	</PropertyGroup>
+</Project>

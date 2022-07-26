@@ -48,12 +48,4 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
-
-	<PropertyGroup Condition="$(TargetFramework.Contains('-ios'))">
-		<RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
-		<CodesignKey>Apple Development: Andrew Herrick (J342D9426H)</CodesignKey>
-		<CodesignProvision>AJH Wildcard</CodesignProvision>
-		<ProvisioningType>manual</ProvisioningType>
-	</PropertyGroup>
-
 </Project>
